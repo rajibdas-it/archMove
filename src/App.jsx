@@ -1,3 +1,5 @@
+import Features from "./components/Features";
+import Gallery from "./components/Gallery";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
@@ -6,7 +8,10 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <main></main>
+      <main>
+        <Gallery />
+        <Features />
+      </main>
     </>
   );
 }
